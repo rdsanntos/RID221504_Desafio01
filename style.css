@@ -1,0 +1,115 @@
+*{font-family: 'inter';
+  margin: 0px;
+  padding: 0;}  
+
+body{display:flex;
+  justify-content: center;} 
+
+.container1{
+  color: #FFFFFF;
+  width: 1440px;
+  height: 120px;
+  gap: 20px;}   
+
+#cabecalho{width: 1440px;
+           height: 475px;
+          background-color: #303030;}
+
+#título1{
+    color:#FFFFFF;
+    width: 1,024px;
+    height: 72px;
+    top: 206px;
+    margin-left: 67px;
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2,5%;}
+
+#título2{
+  color: #FFFFFF;
+  width: 1,024px;
+  height: 28px; 
+  margin-top: 238px;
+  margin-left: 67px;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;}
+
+#centro{
+      display:grid;
+       grid-template-columns:1fr 2fr;
+      columns: auto; }
+
+#grupo3{width: 1440px;
+        height: 229px;}
+
+#título3{
+color: #000000;
+height: 161px;
+width: 735px;
+margin-top: 240px;
+margin-left: 77px;
+font-weight: 500;
+font-size: 40px;
+line-height: 1.5;
+letter-spacing: 0px;}
+
+#parágrafo{
+font-family: 'inter';
+font-weight: 300;
+font-size: 24px;
+margin-top: -70px;
+margin-left: 77px;
+color: #000000;}
+
+#foto{width: 510px;
+      height: 605px;
+      border-radius: 30px;
+      margin: 64px 10px 54px 50px;}
+
+#títuloContato{
+  font-family: 'inter';
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 87px;
+  line-height: 150%;
+  text-align: center;}
+
+#contato{
+  background-color: #303030;
+  width: 1440px;
+  height: 638px;
+  top: 1478px;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+
+    input{ 
+      width: 452px;
+      height: 68px;
+      font-size: 24px;
+      margin-bottom: 28px;
+      top: 1661px;
+      left: 466px;
+      padding-left:  30px;
+      border-radius: 10px; 
+      background-color:#FFFFFF}
+      }
+
+button{   
+    background-color:#C07212; /*cor do botão*/
+    height: 74px;
+    width: 286px;
+    color: #FFFFFF;
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;} /*curvatura da borda do botão*/
+
